@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "pretest": "tsc --incremental -p tests/tsconfig.json",
+    "test": "playwright test",
+    "test-chrome": "playwright test --project=chromium",
+    "test-firefox": "playwright test --project=firefox",
+    "test-webkit": "playwright test --project=webkit",
+    "test-headless": "playwright test --headed=false",
+    "ui": "playwright test --ui"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -11,6 +19,7 @@
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.10.0",
+    "dotenv": "^17.2.3",
     "playwright": "^1.57.0"
   },
   "dependencies": {
