@@ -22,7 +22,10 @@
     "dotenv": "^17.2.3",
     "playwright": "^1.57.0"
   },
-  "dependencies": {
+  "homepage": "https://github.com/DivyanshuMehra/Playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
     "typescript": "^5.9.3"
   }
 }
