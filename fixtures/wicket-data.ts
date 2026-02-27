@@ -1,0 +1,13 @@
+export const WICKET_DATA = {
+    MIN_WICKETS_3x3: 3,
+    MAX_WICKETS_3x3: 8,
+    MIN_WICKETS_5x5: 5,
+    MAX_WICKETS_5x5: 24,
+    MIN_WICKETS_7x7: 7,
+    MAX_WICKETS_7x7: 48,
+    TOTAL_3x3_TILES: 9,
+    TOTAL_5x5_TILES: 25,
+    TOTAL_7x7_TILES: 49,
+    MIN_BET_AMOUNT: 20,
+    MAX_BET_AMOUNT: 100,
+} as const;
